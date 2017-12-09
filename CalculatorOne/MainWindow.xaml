@@ -7,21 +7,21 @@
         mc:Ignorable="d"
         Title="Calculator" Height="266" Width="174" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen" IsEnabled="False">
     <Grid Margin="0,0,2,0">
-        <TextBox HorizontalAlignment="Left" Height="30" Margin="20,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="30" Margin="20,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Cursor="None"/>
         <Button Content="&lt;--" HorizontalAlignment="Left" Margin="20,60,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30"/>
-        <Button Content="C" HorizontalAlignment="Left" Margin="65,60,0,0" Width="30" RenderTransformOrigin="2.8,3.045" Height="30" VerticalAlignment="Top"/>
-        <Button Content="=" HorizontalAlignment="Left" Margin="110,60,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30"/>
-        <Button Content="1" HorizontalAlignment="Left" Margin="20,95,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30"/>
-        <Button Content="2" HorizontalAlignment="Left" Margin="65,95,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30"/>
-        <Button Content="3" HorizontalAlignment="Left" Margin="110,95,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30"/>
-        <Button Content="4" HorizontalAlignment="Left" Margin="20,130,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30"/>
-        <Button Content="5" HorizontalAlignment="Left" Margin="65,130,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30"/>
-        <Button Content="6" HorizontalAlignment="Left" Margin="110,130,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30"/>
-        <Button Content="7" HorizontalAlignment="Left" Margin="20,165,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30"/>
-        <Button Content="8" HorizontalAlignment="Left" Margin="65,165,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30"/>
-        <Button Content="9" HorizontalAlignment="Left" Margin="110,165,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30"/>
-        <Button Content="-" HorizontalAlignment="Left" Margin="20,200,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30"/>
-        <Button Content="0" HorizontalAlignment="Left" Margin="65,200,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30"/>
+        <Button Content="C" HorizontalAlignment="Left" Margin="65,60,0,0" Width="30" RenderTransformOrigin="2.8,3.045" Height="30" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="110,60,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30" Click="Button_Click_11"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="20,95,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30" Click="Button_Click"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="65,95,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30" Click="Button_Click_2"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="110,95,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30" Click="Button_Click_3"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="20,130,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30" Click="Button_Click_4"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="65,130,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30" Click="Button_Click_5"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="110,130,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30" Click="Button_Click_6"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="20,165,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30" Click="Button_Click_7"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="65,165,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30" Click="Button_Click_8"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="110,165,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30" Click="Button_Click_9"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="20,200,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30" Click="Button_Click_12"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="65,200,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30" Click="Button_Click_10"/>
         <Button Content="+" HorizontalAlignment="Left" Margin="110,200,0,0" VerticalAlignment="Top" Width="30" RenderTransformOrigin="2.8,3.045" Height="30"/>
 
     </Grid>
