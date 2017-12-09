@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalculatorOne"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="Calculator" Height="280.998" Width="234" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen" IsEnabled="False">
+    <Grid Margin="0,0,2,0">
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="204"/>
+
     </Grid>
 </Window>
